@@ -59,6 +59,18 @@ h4 {
     margin: 10px 0;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
 .highlighted-text {
     color: #6F4E37;
 }
@@ -81,24 +93,23 @@ h4 {
 
 .emoji {
     background-color: #F5EBE0;
-    align-content: center;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
 }
 
 .grid-element {
     border: #E2E8F0 solid 1px;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    align-content: center;
+.fixed-button {
+    position: fixed;
+    width: 58px;
+    height: 58px;
+    font-size: 28px;
+    right: 31%;
+    top: 50%;
 }
 
 /* HEADER */
@@ -309,6 +320,7 @@ nav .logo {
     padding: 12px;
     width: 24px;
     height: 24px;
+    font-size: 24px;
 }
 
 /* PRODUCTS */
@@ -355,6 +367,7 @@ nav .logo {
     border-radius: 50%;
     width: 36px;
     height: 36px;
+    font-size: 20px;
 }
 
 #products .fav {
