@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -22,15 +24,23 @@
             </ul>
         </section>
         <nav>
-            <div class="logo">
-                <strong>☕ CafeBoabe</strong>
+            <div class="logo bold">
+                ☕ Cafe<span class="highlighted-text">Boabe</span>
             </div>
             <ul>
-                <li>Acasa</li>
-                <li>Meniu</li>
-                <li>Despre</li>
-                <li>Galerie</li>
-                <li>Contact</li>
+                <li class="highlighted-text bold">Acasa</li>
+                <li>
+                    <a>Meniu</a>
+                </li>
+                <li>
+                    <a>Despre</a>
+                </li>
+                <li>
+                    <a>Galerie</a>
+                </li>
+                <li>
+                    <a>Contact</a>
+                </li>
                 <li>
                     <button class="reserve">
                         Rezerva o masa
@@ -44,27 +54,49 @@
         <div class="photo-container">
             <img class="photo" src="img/image-hero.png">
             <div class="photo-comment">
-                <p class="title">Croissant cadou</p>
-                la orice cafea mare
+                <span class="emoji">
+                    🥐
+                </span>
+                <div class="text">
+                    <div class="title">Croissant cadou</div>
+                    la orice cafea mare
+                </div>
+            </div>
+            <div class="discount">
+                <div class="inner-circle">
+                    <div class="top">-15%</div>
+                    <div class="bottom">dimineața</div>
+                </div>
             </div>
         </div>
         <div class="description-container">
-            <span class="small-text">
-                <strong>Prăjim cafeaua în fiecare zi</strong>
+            <span class="small-text bold">
+                Prăjim cafeaua în fiecare zi
             </span>
-            <div class="big-text">
-                <strong>Cafea de specialitate în inima orașului</strong>
-            </div>
+            <h1 class="big-text">
+                Cafea de <span class="highlighted-text">specialitate</span> în inima orașului
+            </h1>
             <div class="description">
                 Boabe proaspăt prăjite, deserturi de casă și un loc liniștit unde să lucrezi, să citești sau să te vezi cu prietenii.
             </div>
             <div class="buttons">
                 <button>Vezi meniul</button>
-                <button>Comandă online</button>
+                <button class="white-button">Comandă online</button>
             </div>
-            <div class="reviews">
-
-            </div>
+            <ul class="reviews">
+                <li>
+                    <h3>12</h3>
+                    <span class="bottom">tipuri de cafea</span>
+                </li>
+                <li>
+                    <h3>4.9★</h3>
+                    <span class="bottom">pe Google</span>
+                </li>
+                <li>
+                    <h3>2015</h3>
+                    <span class="bottom">anul deschiderii</span>
+                </li>
+            </ul>
         </div>
     </section>
 
