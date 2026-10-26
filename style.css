@@ -1,0 +1,12 @@
+html {
+    max-width: 960px; 
+    margin: 0 auto;
+}
+
+.top {
+    background-color: #2B1D14;
+}
+
+header {
+    position: sticky;
+}
