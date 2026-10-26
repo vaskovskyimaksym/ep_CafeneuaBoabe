@@ -153,12 +153,12 @@ nav .logo {
 
 /* HERO */
 
-.hero {
+#hero {
     display: flex;
     margin-top: 190px;
 }
 
-.hero .small-text {
+#hero .small-text {
     border-radius: 20px;
     background-color: #F5EBE0;
     color: #6F4E37;
@@ -166,32 +166,32 @@ nav .logo {
     padding: 5px 15px;
 }
 
-.hero .big-text {
+#hero .big-text {
     margin-top: 20px;
 }
 
-.hero .description {
+#hero .description {
     font-size: 17px;
     margin-top: 10px;
 }
 
-.hero .description-container {
+#hero .description-container {
     margin-left: 40px;
     width: 400px;
 }
 
-.hero .photo-container {
+#hero .photo-container {
     position: relative;
     margin-top: 20px;
 }
 
-.hero .buttons {
+#hero .buttons {
     display: flex;
     gap: 10px;
     margin-top: 30px;
 }
 
-.hero .photo-comment {
+#hero .photo-comment {
     position: absolute;
     bottom: 10px;
     left: 30px;
@@ -203,39 +203,39 @@ nav .logo {
     width: fit-content;
 }
 
-.hero .emoji {
+#hero .emoji {
     padding: 5px;
     border-radius: 50%;
 }
 
-.hero .photo-comment .text {
+#hero .photo-comment .text {
     margin-left: 15px;
 }
 
-.hero .photo-comment .title {
+#hero .photo-comment .title {
     font-weight: 700;
     font-size: 15px;
     color: black;
 }
 
-.hero .reviews {
+#hero .reviews {
     display: flex;
     gap: 30px;
     margin-top: 20px;
 }
 
-.hero .reviews .top {
+#hero .reviews .top {
     display: flex;
     font-size: 28px;
     font-family: Playfair Display;
 }
 
-.hero .reviews .bottom {
+#hero .reviews .bottom {
     display: flex;
     font-size: 13px;
 }
 
-.hero .discount {
+#hero .discount {
     background-color: #D08C60;
     border-radius: 50%;
     position: absolute;
@@ -248,7 +248,7 @@ nav .logo {
     align-items: center;
 }
 
-.hero .inner-circle {
+#hero .inner-circle {
     border: #FFFFFF solid 2px;
     border-radius: 50%;
     display: flex;
@@ -260,13 +260,13 @@ nav .logo {
     color: #FFFFFF;
 }
 
-.hero .inner-circle .top {
+#hero .inner-circle .top {
     font-family: Playfair Display;
     font-weight: 700;
     font-size: 30px;
 }
 
-.hero .inner-circle .bottom {
+#hero .inner-circle .bottom {
     font-family: Inter;
     font-weight: 700;
     font-size: 12px;
@@ -274,37 +274,37 @@ nav .logo {
 
 /* ADVANTAGES */
 
-.advantages {
+#advantages {
     margin: 75px 0px;
 }
 
-.advantages-container {
+#advantages .advantages-container {
     display: flex;
     justify-content: space-between;
 }
 
-.advantages .story-button {
+#advantages .story-button {
     margin-top: 30px;
 }
 
-.advantages .title {
+#advantages .title {
     width: 180px;
 }
 
-.advantages .grid {
+#advantages .grid {
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
-.advantages .grid-element {
+#advantages .grid-element {
     padding: 20px 20px 30px;
     border-radius: 20px;
     width: 250px;
 }
 
-.advantages .emoji {
+#advantages .emoji {
     border-radius: 10px;
     padding: 12px;
     width: 24px;
@@ -313,12 +313,12 @@ nav .logo {
 
 /* PRODUCTS */
 
-.products {
+#products {
     background-color: #FBF7F2;
     padding-bottom: 70px;
 }
 
-.products .top {
+#products .top {
     font-size: 15px;
     display: flex;
     flex-direction: column;
@@ -326,7 +326,7 @@ nav .logo {
     padding-top: 50px;
 }
 
-.products .grid {
+#products .grid {
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: repeat(4, 1fr);
@@ -335,7 +335,7 @@ nav .logo {
     padding: 0px 40px;
 }
 
-.products .grid-element {
+#products .grid-element {
     font-size: 13px;
     padding: 10px;
     border-radius: 20px;
@@ -343,21 +343,21 @@ nav .logo {
     position: relative;
 }
 
-.products .bottom {
+#products .bottom {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     align-items: center;
 }
 
-.products .add {
+#products .add {
     padding: 15px;
     border-radius: 50%;
     width: 40px;
     height: 40px;
 }
 
-.products .fav {
+#products .fav {
     position: absolute;
     top: 15px;
     right: 15px;
@@ -369,7 +369,7 @@ nav .logo {
     padding: 0;
 }
 
-.products .add-info {
+#products .add-info {
     position: absolute;
     top: 15px;
     left: 15px;
@@ -382,20 +382,20 @@ nav .logo {
     font-size: 12px;
 }
 
-.products .price-container {
+#products .price-container {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.products .price {
+#products .price {
     font-size: 18px;
     font-family: Playfair Display;
     font-weight: 700;
     color: #6F4E37;
 }
 
-.products .old-price {
+#products .old-price {
     font-size: 12px;
     text-decoration: line-through;
     color: #94A3B8;
@@ -403,7 +403,7 @@ nav .logo {
 
 /* REVIEWS */
 
-.reviews {
+#reviews {
     position: relative;
     display: flex;
     background-color: #FFFFFF;
@@ -412,14 +412,14 @@ nav .logo {
     margin-top: 80px;
 }
 
-.reviews .comma {
+#reviews .comma {
     color: #6F4E37;
     font-size: 90px;
     font-weight: 700;
     font-family: Playfair Display;
 }
 
-.reviews .quote {
+#reviews .quote {
     font-family: Playfair Display;
     font-weight: 700;
     font-size: 22px;
@@ -428,13 +428,13 @@ nav .logo {
     text-align: center;
 }
 
-.reviews .author-container {
+#reviews .author-container {
     display: flex;
     gap: 10px;
     margin-top: 50px;
 }
 
-.reviews .icon {
+#reviews .icon {
     background-color: #6F4E37;
     color: #FFFFFF;
     border-radius: 50%;
@@ -447,19 +447,19 @@ nav .logo {
     justify-content: center;
 }
 
-.reviews .author {
+#reviews .author {
     color: #2B1D14;
     font-size: 15px;
     font-weight: 700;
 }
 
-.reviews .text {
+#reviews .text {
     display: flex;
     flex-direction: column;
     font-size: 12px;
 }
 
-.reviews .button-container {
+#reviews .button-container {
     position: absolute;
     display: flex;
     align-self: center;
@@ -468,7 +468,7 @@ nav .logo {
     top: 57%;
 }
 
-.reviews button {
+#reviews button {
     background-color: #FFFFFF;
     color: #2B1D14;
     width: 48px;
