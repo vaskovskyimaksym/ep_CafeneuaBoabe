@@ -19,6 +19,12 @@ button {
 
     font-size: 15px;
     padding: 15px 25px;
+    font-family: Inter;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
 }
 
 h1 {
@@ -140,9 +146,8 @@ nav .reserve {
 }
 
 nav .logo {
-    left: 0;
     font-family: Playfair Display;
-    size: 24px;
+    font-size: 24px;
     align-content: center;
 }
 
@@ -270,7 +275,7 @@ nav .logo {
 /* ADVANTAGES */
 
 .advantages {
-    margin: 100px 0px;
+    margin: 75px 0px;
 }
 
 .advantages-container {
@@ -310,6 +315,7 @@ nav .logo {
 
 .products {
     background-color: #FBF7F2;
+    padding-bottom: 70px;
 }
 
 .products .top {
@@ -393,5 +399,82 @@ nav .logo {
     font-size: 12px;
     text-decoration: line-through;
     color: #94A3B8;
+}
+
+/* REVIEWS */
+
+.reviews {
+    position: relative;
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.reviews .comma {
+    color: #6F4E37;
+    font-size: 90px;
+    font-weight: 700;
+    font-family: Playfair Display;
+}
+
+.reviews .quote {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 22px;
+    width: 650px;
+    color: #2B1D14;
+    text-align: center;
+}
+
+.reviews .author-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.reviews .icon {
+    background-color: #6F4E37;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews .author {
+    color: #2B1D14;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.reviews .text {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.reviews .button-container {
+    position: absolute;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 100%;
+    top: 57%;
+}
+
+.reviews button {
+    background-color: #FFFFFF;
+    color: #2B1D14;
+    width: 48px;
+    height: 48px;
+    border: #E2E8F0 solid 1px;
+    font-size: 26px;
+    padding: 0;
 }
 
