@@ -14,9 +14,11 @@ button {
     flex-wrap: wrap;
     border: none;
     font-weight: 700;
-    padding: 10px 20px;
     background-color: #6F4E37;
     color: #FFFFFF;
+
+    font-size: 15px;
+    padding: 15px 25px;
 }
 
 h1 {
@@ -48,11 +50,17 @@ h4 {
     font-size: 17px;
     font-family: Inter;
     font-weight: 700;
-    margin: 0;
+    margin: 10px 0;
 }
 
 .highlighted-text {
     color: #6F4E37;
+}
+
+.mini-title {
+    color: #6F4E37;
+    font-weight: 700;
+    font-size: 12px;
 }
 
 .white-button {
@@ -63,6 +71,16 @@ h4 {
 
 .bold {
     font-weight: 700;
+}
+
+.emoji {
+    background-color: #F5EBE0;
+    align-content: center;
+    display: inline-block;
+}
+
+.grid-element {
+    border: #E2E8F0 solid 1px;
 }
 
 ul {
@@ -114,6 +132,7 @@ nav ul {
 
 nav .reserve {
     font-size: 14px;
+    padding: 10px 20px;
 }
 
 nav .logo {
@@ -162,11 +181,6 @@ nav .logo {
     margin-top: 30px;
 }
 
-.hero .buttons button {
-    font-size: 15px;
-    padding: 15px 25px;
-}
-
 .hero .photo-comment {
     position: absolute;
     bottom: 10px;
@@ -181,9 +195,7 @@ nav .logo {
 
 .hero .photo-comment .emoji {
     padding: 5px;
-    background-color: #F5EBE0;
     border-radius: 50%;
-    align-content: center;
 }
 
 .hero .photo-comment .text {
@@ -248,4 +260,43 @@ nav .logo {
     font-family: Inter;
     font-weight: 700;
     font-size: 12px;
+}
+
+/* ADVANTAGES */
+
+.advantages {
+    margin: 100px 0px;
+}
+
+.advantages-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages .story-button {
+    margin-top: 30px;
+}
+
+.advantages .title {
+    width: 180px;
+}
+
+.advantages .grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.advantages .grid-element {
+    padding: 20px 20px 30px;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.advantages .emoji {
+    border-radius: 10px;
+    padding: 12px;
+    width: 24px;
+    height: 24px;
 }
