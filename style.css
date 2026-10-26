@@ -275,7 +275,7 @@ nav .logo {
 /* ADVANTAGES */
 
 #advantages {
-    margin: 75px 0px;
+    margin: 70px 0px;
 }
 
 #advantages .advantages-container {
@@ -323,7 +323,7 @@ nav .logo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 #products .grid {
@@ -353,8 +353,8 @@ nav .logo {
 #products .add {
     padding: 15px;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
 }
 
 #products .fav {
@@ -409,7 +409,7 @@ nav .logo {
     background-color: #FFFFFF;
     flex-direction: column;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 #reviews .comma {
@@ -440,8 +440,8 @@ nav .logo {
     border-radius: 50%;
     font-weight: 700;
     font-size: 14px;
-    width: 40px;
-    height: 40px;
+    width: 46px;
+    height: 46px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -457,6 +457,7 @@ nav .logo {
     display: flex;
     flex-direction: column;
     font-size: 12px;
+    justify-content: space-evenly;
 }
 
 #reviews .button-container {
@@ -476,5 +477,67 @@ nav .logo {
     border: #E2E8F0 solid 1px;
     font-size: 26px;
     padding: 0;
+    font-weight: 400;
 }
 
+#reviews .circles {
+    display: flex;
+    gap: 5px;
+    margin-top: 28px;
+}
+
+#reviews .circle {
+    width: 10px;
+    height: 10px;
+    background-color: #E2E8F0;
+    border-radius: 50%;
+}
+
+#reviews .circle-colored {
+    background-color: #6F4E37;
+}
+
+/* GALLERY */
+
+#gallery {
+    background-color: #FBF7F2;
+    margin-top: 65px;
+    padding-bottom: 70px;
+}
+
+#gallery .top {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+#gallery .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 29px;
+    padding: 0 40px;
+    gap: 10px 0px;
+}
+
+#gallery-img-1 {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+#gallery-img-2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#gallery-img-3 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#gallery-img-4 {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+}
