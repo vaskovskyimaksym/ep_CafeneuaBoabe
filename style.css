@@ -134,6 +134,14 @@ input {
     z-index: 100;
 }
 
+.logo {
+    font-family: Playfair Display;
+    font-size: 24px;
+    align-content: center;
+    font-weight: 700;
+    color: #2B1D14;
+}
+
 /* HEADER */
 header {
     position: fixed;
@@ -144,7 +152,7 @@ header {
     width: 945px;
 }
 
-nav {
+header nav {
     display: flex;
     justify-content: space-between;
     height: 76px;
@@ -176,12 +184,6 @@ nav ul {
 nav .reserve {
     font-size: 14px;
     padding: 10px 20px;
-}
-
-nav .logo {
-    font-family: Playfair Display;
-    font-size: 24px;
-    align-content: center;
 }
 
 /* HERO */
@@ -579,8 +581,8 @@ nav .logo {
 }
 
 #menu .top {
-    display: flex;
     font-size: 15px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 60px;
@@ -673,4 +675,68 @@ nav .logo {
     font-size: 28px;
     background-color: #D08C60;
     color: #FFFFFF;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #2B1D14;
+    padding-top: 52px;
+    color: #94A3B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .logo {
+    font-size: 28px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+footer .highlighted-text {
+    color: #D08C60;
+}
+
+footer .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    padding-bottom: 29px;
+    border-bottom: #5e5046 solid 1px;
+    width: 880px;
+}
+
+footer .links {
+    font-size: 15px;
+    gap: 31px;
+    color: #FFFFFF;
+}
+
+footer .social {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #6F4E37;
+    font-size: 13px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#links {
+    margin-top: 54px;
+}
+
+#socials {
+    margin-top: 28px;
+}
+
+footer .bottom {
+    font-size: 13px;
+    padding-top: 23px;
+    padding-bottom: 21px;
 }
