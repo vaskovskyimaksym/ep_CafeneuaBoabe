@@ -23,6 +23,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: rgb(84, 61, 45);
+}
+
 a {
     cursor: pointer;
 }
@@ -107,6 +111,10 @@ input {
     background-color: #FFFFFF;
     color: #6F4E37;
     border: #6F4E37 solid 2px;
+}
+
+.white-button:hover {
+    background-color: #e0e0e0;
 }
 
 .bold {
@@ -404,6 +412,10 @@ nav .reserve {
     width: 30px;
     height: 30px;
     padding: 0;
+}
+
+#products .fav:hover{
+    background-color: #e0e0e0;
 }
 
 #products .add-info {
