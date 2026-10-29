@@ -523,6 +523,10 @@ nav .reserve {
     font-weight: 400;
 }
 
+#reviews button:hover {
+    background-color: #e0e0e0;
+}
+
 #reviews .circles {
     display: flex;
     gap: 5px;
