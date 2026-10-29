@@ -6,6 +6,10 @@ html {
     color: #475569;
 }
 
+body {
+    margin: 0;
+}
+
 button {
     border-radius: 500px;
     align-content: center;
@@ -152,12 +156,12 @@ input {
 
 /* HEADER */
 header {
-    position: fixed;
+    position: sticky;
     border-bottom: #E2E8F0 solid 1px;
     background-color: #FFFFFF;
     top: 0;
     z-index: 100;
-    width: 945px;
+    width: 100%;
 }
 
 header nav {
